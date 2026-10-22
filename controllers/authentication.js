@@ -32,7 +32,7 @@ const user=await User.create({
 })
 
 res.status(200).json({
-    sucsess:true,
+    succsess:true,
     message :"User registered sucessfully",
     data :{
         id :user._id,
